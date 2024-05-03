@@ -9,7 +9,7 @@ for (let key of keys) {
 
 	key.addEventListener('click', () => {
 		if (value == "clear") {
-			input = "after all ";
+			input = "";
 			display_input.innerHTML = "";
 			display_output.innerHTML = "";
 		} else if (value == "backspace") {
